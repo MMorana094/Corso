@@ -1,8 +1,11 @@
 from typing import Union
 from math import *
+import pytest
+from pytest_mock import MockerFixture
 
 def sum(a: Union[int, float], b:Union[int, float]) ->Union[int, float] :
-    return a + b
+    c = a + b
+    return c
 
 def sub(a: Union[int, float], b:Union[int, float]) ->Union[int, float] :
     return a - b
