@@ -1,6 +1,6 @@
 import pytest
 import cose
-from pytest_mock import MockerFixture, mocker
+from pytest
 
 def test_sum() -> bool:
     res = cose.sum(4, 6) == 10
